@@ -3,11 +3,9 @@ import dht11
 import time
 import datetime
 
-# initialize GPIO
 GPIO.setwarnings(True)
 GPIO.setmode(GPIO.BCM)
 
-# read data using pin 
 instance = dht11.DHT11(pin=??)
 
 try:
